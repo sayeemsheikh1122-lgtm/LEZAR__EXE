@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login — DEV PIYAS EXE</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="login-bg">
+    <video autoplay muted loop playsinline class="login-video">
+      <source src="https://cdn.discordapp.com/attachments/1497979406801572030/1513995400535736421/8e06560d-82db-45f6-961a-3c686ea10f53.mp4?ex=6a2a6a58&is=6a2918d8&hm=8d219b3c3fe309d28ae6c8df7ebb1fad85382f48895873300768af3649c19971&" type="video/mp4"/>
+    </video>
+    <div class="login-overlay"></div>
+    <div class="login-card" role="main">
+      <h1 class="page-title">LEZAR_EXE LICENCE</h1>
+      <p class="welcome-text">Welcome VIP. Enter your one-time LEZAR_EXE license below to continue.</p>
+      <div class="login-field">
+        <input id="passInput" type="text" placeholder="Enter your license code" autocomplete="off" />
+      </div>
+      <button id="loginBtn" class="login-btn">LOGIN</button>
+      <div id="loginMsg" class="login-msg" aria-live="polite"></div>
+    </div>
+
+    <div class="card" id="licenseCard">
+      <div class="card-header">
+        <div class="card-title">
+          <i class="ti ti-info-circle"></i>
+          LEZAR_EXE Licence
+        </div>
+      </div>
+      <p class="desc">Your one-time license is valid for a single login. Paste it above and click LOGIN.</p>
+      <div class="license-list" style="justify-content:center;cursor:default;">
+        <p style="margin:0;opacity:.78;font-size:.95rem;line-height:1.5;">
+          Welcome back. Use your LEZAR_EXE license to access the whitelist website.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
